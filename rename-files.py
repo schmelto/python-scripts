@@ -10,7 +10,6 @@ def main():
             dst = "Filename" + str(count) + ".jpg"
             src = url + file 
             dst = url + dst
-            print(file)
             
             # rename() function will rename all the files 
             os.rename(src, dst) 
