@@ -1,14 +1,13 @@
 import os 
 
-url = "C:/Users/tomsc/OneDrive/Pictures/2014 Abschlussball/"
+url = "url" + "/"
 extensions = ('.jpg', '.JPG')
-
 
 # Function to rename multiple files 
 def main(): 
     for count, file in enumerate(os.listdir(url)): 
         if file.endswith(extensions):
-            dst = "Abschlussball" + str(count) + ".jpg"
+            dst = "Filename" + str(count) + ".jpg"
             src = url + file 
             dst = url + dst
             print(file)
