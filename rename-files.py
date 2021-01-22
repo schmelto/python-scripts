@@ -13,8 +13,6 @@ def main():
             
             # rename() function will rename all the files 
             os.rename(src, dst) 
-        else:
-            count = count - 1
 
 # Driver Code 
 if __name__ == '__main__': 
