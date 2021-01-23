@@ -1,7 +1,7 @@
 import os 
 
-url = "" + "/"
-newFilename = ""
+url = "C:/Users/tomsc/OneDrive/Pictures/2016 Naxos" + "/" # you have to replace "\" with "/"
+newFilename = "2016-Naxos-" # + number
 extensions1 = ('.jpg', '.JPG')
 extensions2 = ('.png', '.PNG')
 
@@ -23,8 +23,6 @@ def main():
             # rename() function will rename all the files 
             os.rename(src, dst)
             counter = counter + 1 
-        
-          
 
 # Driver Code 
 if __name__ == '__main__': 
